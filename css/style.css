@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', "Helvetica", Arial, sans-serif;
+    background: #e6e6e6;
+}
+/*LAYOUT PAG*/
+.cabecalho {
+    background-color: #657ED4;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.blog {
+    color: #304794;
+}
+
+.menu a{
+    padding: 0.5em;
+    margin: 0.1em;
+    color: #FBFBFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #657ED4;
+    background-color: white;
+}
+
+h1 {
+    color: #FBFBFF;
+    font-size: 2.5em;
+}
+
+/* PAGINA PRINCIPAL CONTEUDO */
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.conteudos {
+    width: 660px;
+    float: left;
+}
+.publicacoes {
+    
+}
+
+.publicacao {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.publicacao h2 {
+    color: #304794;
+    font-size: 1.5em;
+}
+.publicacao span {
+    font-size: 0.85em;
+}
+.publicacao img {
+    width: 620px;
+}
+.publicacao a {
+    color: #304794;
+    text-decoration: none;
+
+    
+}
+.publicacao a:hover{
+    text-decoration: underline;
+}
+.divisor {
+    height: 1px;
+    background-color: rgb(218, 218, 218);
+    margin: 10px 0px;
+}
+
+
+.barra-lateral {
+    margin: 20px 0px;
+    width: 240px;
+    float: right;
+    font-size: 0.85em;
+}
+.barra-lateral h3 {
+    background-color: #CCCCCC;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.barra-lateral a {
+    color: #304794;
+    text-decoration: none;
+}
+.barra-lateral a:hover {
+    text-decoration: underline;
+}
+.postagens-recentes {
+    background-color: white;
+    padding: 10px;
+}
+.postagens-recentes p {
+    padding-top: 5px;
+}
+.post {
+    margin-bottom: 20px;
+}
+.categorias {
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.categorias a {
+    font-size: 1em;
+}
+
+
+
+/* Footer */
+.footer {
+    clear: both;
+    background-color: #ccc;
+    padding: 15px;
+    text-align: center;
+}
